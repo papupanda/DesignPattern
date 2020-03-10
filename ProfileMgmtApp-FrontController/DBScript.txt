@@ -1,0 +1,1 @@
+SQL> create table Profile_Info(pid  number(5) primary key,pname varchar2(20), addrs varchar2(10),qlfy varchar2(10),mobileNo number(10));

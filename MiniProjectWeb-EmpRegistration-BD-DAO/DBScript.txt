@@ -1,0 +1,20 @@
+SQL> desc HREmp;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ EMPNO                                     NOT NULL NUMBER(5)
+ EMPNAME                                            VARCHAR2(20)
+ EMPADDRS                                           VARCHAR2(20)
+ EMPDESG                                            VARCHAR2(10)
+ DEPTNO                                             NUMBER(6)
+
+SQL> desc FinanceEmp;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ EMPNO                                     NOT NULL NUMBER(5)
+ EMPNAME                                            VARCHAR2(20)
+ EMPADDRS                                           VARCHAR2(20)
+ SALARY                                             NUMBER(7,2)
+ DEPTNO                                             NUMBER(5)
+ 
+ SQL> create sequence EMPNO_SEQ1 Start with 1 increment by 1;
+ 
